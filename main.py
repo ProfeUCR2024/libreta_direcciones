@@ -10,6 +10,7 @@ def menu():
     return opcion
 
 def main():
+    print('****LIBRETA DE DIRECCIONES*****')
     libreta = LibretaDirecciones("contactos.txt")
 
     while True:
